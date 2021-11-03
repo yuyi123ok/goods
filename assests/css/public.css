@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "iconfont";
+  /* Project id 2714464 */
+  src: url('//at.alicdn.com/t/font_2714464_hcxmfzxvohv.woff2?t=1629515779291') format('woff2'), url('//at.alicdn.com/t/font_2714464_hcxmfzxvohv.woff?t=1629515779291') format('woff'), url('//at.alicdn.com/t/font_2714464_hcxmfzxvohv.ttf?t=1629515779291') format('truetype');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  vertical-align: -10%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background: #f7f7f7;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0em;
+  background: #fff;
+  padding-bottom: 0.5em;
+  z-index: 1000;
+  background: #ffffff;
+  transition: all linear 0.3s;
+}
+.header .top {
+  padding: 0.5em 1em;
+  padding-bottom: 0em;
+  display: flex;
+}
+.header .top .left {
+  width: 44%;
+  display: flex;
+  align-items: center;
+}
+.header .top .left .title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.header .top .left .img .location {
+  font-size: 2em;
+  color: #ff875d;
+  cursor: pointer;
+  transition: all linear 0.2s;
+}
+.header .top .left .img .location:hover {
+  color: #ff4602;
+}
+.header .top .right {
+  width: 56%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .top .right .input {
+  display: flex;
+  align-items: center;
+  background: #f2f2f2;
+  border-radius: 20px;
+  padding: 0.7em 1em;
+}
+.header .top .right .input input {
+  width: 5.1em;
+  border: 0;
+  margin-right: 0.5em;
+  border-radius: 20px;
+  background: #f2f2f2;
+}
+.header .top .right .input input::placeholder {
+  background: #f2f2f2;
+  border-radius: 20px;
+  width: 8em;
+}
+.header .top .right .qrcode {
+  text-align: center;
+  cursor: pointer;
+}
+.header .top .right .qrcode:hover span {
+  color: #ff875d;
+}
+.header .top .right .qrcode:hover p {
+  color: #ff875d;
+}
+.header .top .right .qrcode span {
+  transition: all linear 0.2s;
+}
+.header .top .right .qrcode p {
+  font-size: 0.5em;
+  transition: all linear 0.2s;
+}
+.header .top .right .news {
+  text-align: center;
+  cursor: pointer;
+  transition: all linear 0.2s;
+}
+.header .top .right .news:hover span {
+  color: #ff875d;
+}
+.header .top .right .news:hover p {
+  color: #ff875d;
+}
+.header .top .right .news span {
+  transition: all linear 0.2s;
+}
+.header .top .right .news p {
+  font-size: 0.5em;
+  transition: all linear 0.2s;
+}
+@media screen and (max-width: 320px) {
+  .header .top .left .title {
+    font-size: 1em;
+  }
+  .header .top .right p {
+    display: none;
+  }
+}
+pre {
+  background-color: #fff;
+}
+.footer {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding-top: 0.5em;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  transition: all linear 0.3s;
+}
+.footer .item {
+  width: 18%;
+  justify-content: center;
+  text-align: center;
+}
+.footer .item:nth-of-type(4) .img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25.6px;
+}
+.footer .item:nth-of-type(4) .img span {
+  margin-left: -0.3em;
+  margin-top: -0.3em;
+  width: 21px;
+  height: 20.8px;
+  font-size: 1.9em;
+}
+.footer .item:hover .img span {
+  color: #eda30b;
+}
+.footer .item:hover p {
+  color: #eda30b;
+}
+.footer .item p {
+  color: #b3b3b3;
+  text-align: center;
+}
+@media screen and (max-width: 320px) {
+  .footer p {
+    font-size: 0.8em;
+  }
+}
